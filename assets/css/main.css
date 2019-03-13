@@ -1281,6 +1281,10 @@ input, select, textarea {
 				box-sizing: border-box;
 				align-items: stretch;
 			}
+			.button.margin-top{
+				margin-top: 1em
+
+			}
 
 				.row > * {
 					box-sizing: border-box;
@@ -2145,6 +2149,11 @@ input, select, textarea {
 		position: relative;
 	}
 
+	.image-small {
+		width: 12%;
+		margin-top:2em
+	}
+
 		.image img {
 			display: block;
 		}
@@ -2193,6 +2202,11 @@ input, select, textarea {
 
 				.image.main {
 					margin: 1.5em 0;
+				}
+
+				.image-small{
+					margin-top:2em;
+					width: 25%
 				}
 
 			}
@@ -3930,4 +3944,3 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
-
